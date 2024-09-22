@@ -1,0 +1,6 @@
+Apple = 20
+Tomato = 100
+Carrot = 55
+Banana = 200
+Can = 3
+potato = 15

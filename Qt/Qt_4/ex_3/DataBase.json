@@ -1,0 +1,46 @@
+[
+    {
+        "Name": "Ahmed",
+        "Subjects": [
+            {
+                "Math": 20
+            },
+            {
+                "English": 80
+            }
+        ]
+    },
+    {
+        "Name": "Sara",
+        "Subjects": [
+            {
+                "Math": 55
+            },
+            {
+                "English": 65
+            }
+        ]
+    },
+    {
+        "Name": "Essam",
+        "Subjects": [
+            {
+                "Math": 70
+            },
+            {
+                "English": 40
+            }
+        ]
+    },
+    {
+        "Name": "Hamdy",
+        "Subjects": [
+            {
+                "Math": 50
+            },
+            {
+                "English": 60
+            }
+        ]
+    }
+]

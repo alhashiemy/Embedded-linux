@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1096</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gbSystem">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>421</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 0, 255);</string>
+    </property>
+    <property name="title">
+     <string>System</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>391</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="lIP">
+            <property name="styleSheet">
+             <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(85, 255, 127);
+background-color: rgb(255, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>IP :-</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="leIP">
+            <property name="styleSheet">
+             <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="inputMask">
+             <string>000.000.000.000</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="lPort">
+            <property name="styleSheet">
+             <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(85, 255, 127);
+background-color: rgb(255, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>Port :-</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lePort">
+            <property name="styleSheet">
+             <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+            </property>
+            <property name="inputMask">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbConnect">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 255, 0);
+color: rgb(85, 0, 0);
+font: 20pt &quot;Simplified Arabic Fixed&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Connect</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbDisconnect">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 255, 0);
+font: 20pt &quot;Simplified Arabic Fixed&quot;;
+background-color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Disconnect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>381</width>
+       <height>149</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="lIP_3">
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Segoe UI&quot;;
+color: rgb(85, 255, 127);
+background-color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-style:italic;&quot;&gt;Enter Message&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbSendData">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 255, 0);
+color: rgb(85, 0, 0);
+font: 20pt &quot;Simplified Arabic Fixed&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="leData">
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 0, 0);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>601</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Console Data</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QListWidget" name="lwConsole">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+font: 700 14pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pbClearConsole">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);
+font: 20pt &quot;Simplified Arabic Fixed&quot;;
+background-color: rgb(255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>1041</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Received Data</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QListWidget" name="lwReceived">
+       <property name="styleSheet">
+        <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+font: 700 14pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollMode::ScrollPerPixel</enum>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pbClearReceived">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);
+font: 20pt &quot;Simplified Arabic Fixed&quot;;
+background-color: rgb(255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1096</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pbClearConsole</sender>
+   <signal>clicked()</signal>
+   <receiver>lwConsole</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>591</x>
+     <y>388</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>583</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbClearReceived</sender>
+   <signal>clicked()</signal>
+   <receiver>lwReceived</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>826</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>642</x>
+     <y>680</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
