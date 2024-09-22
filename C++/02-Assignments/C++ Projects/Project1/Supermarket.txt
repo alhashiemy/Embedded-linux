@@ -1,0 +1,8 @@
+Fruits
+Vegetables
+Canned foods
+Dairy products
+Cold cuts
+Cleaning products
+Clothes
+Snacks

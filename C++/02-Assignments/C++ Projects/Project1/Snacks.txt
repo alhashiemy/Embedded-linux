@@ -1,0 +1,3 @@
+Chips 1.2
+Cookies 1.0
+Candy 0.8
