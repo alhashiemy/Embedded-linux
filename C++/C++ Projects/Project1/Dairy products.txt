@@ -1,0 +1,3 @@
+Milk 1.0
+Cheese 1.2
+Yogurt 0.8
