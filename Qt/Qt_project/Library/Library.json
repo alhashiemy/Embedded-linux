@@ -1,0 +1,102 @@
+[
+    {
+        "author": "J.R.R. Tolkien",
+        "barcode": "9780007141546",
+        "category": "Fantasy",
+        "publish": {
+            "publisher": "George Allen & Unwin",
+            "year": 1954
+        },
+        "title": "The Lord of the Rings"
+    },
+    {
+        "author": "Jane Austen",
+        "barcode": "9780007460216",
+        "category": "Classic",
+        "publish": {
+            "publisher": "T. Egerton",
+            "year": 1813
+        },
+        "title": "Pride and Prejudice"
+    },
+    {
+        "author": "Harper Lee",
+        "barcode": "9780007313023",
+        "category": "Classic",
+        "publish": {
+            "publisher": "J.B. Lippincott & Co.",
+            "year": 1960
+        },
+        "title": "To Kill a Mockingbird"
+    },
+    {
+        "author": "George Orwell",
+        "barcode": "9780007560199",
+        "category": "Dystopian",
+        "publish": {
+            "publisher": "Secker & Warburg",
+            "year": 1949
+        },
+        "title": "1984"
+    },
+    {
+        "author": "Douglas Adams",
+        "barcode": "9780007172497",
+        "category": "Science Fiction",
+        "publish": {
+            "publisher": "Pan Books",
+            "year": 1979
+        },
+        "title": "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        "author": "J.K. Rowling",
+        "barcode": "9780747532711",
+        "category": "Fantasy",
+        "publish": {
+            "publisher": "Bloomsbury",
+            "year": 1997
+        },
+        "title": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+        "author": "F. Scott Fitzgerald",
+        "barcode": "9780007123545",
+        "category": "Classic",
+        "publish": {
+            "publisher": "Charles Scribner's Sons",
+            "year": 1925
+        },
+        "title": "The Great Gatsby"
+    },
+    {
+        "author": "George Orwell",
+        "barcode": "9780007145354",
+        "category": "Dystopian",
+        "publish": {
+            "Year": 1945,
+            "publisher": "Secker & Warburg"
+        },
+        "title": "Animal Farm"
+    },
+    {
+        "author": "J.D. Salinger",
+        "barcode": "9780007138134",
+        "category": "Classic",
+        "publish": {
+            "publisher": "Little, Brown & Company",
+            "year": 1951
+        },
+        "title": "The Catcher in the Rye"
+    },
+    {
+        "author": "Suzanne Collins",
+        "barcode": "9780439023481",
+        "category": "Dystopian",
+        "publish": {
+            "publisher": "Scholastic Press",
+            "year": 2008
+        },
+        "title": "The Hunger Games"
+    }
+]
